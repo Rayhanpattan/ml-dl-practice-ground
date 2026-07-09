@@ -20,7 +20,7 @@ Evaluated three core classification architectures to compare performance:
 * **Conclusion:** The ensemble nature of the Random Forest successfully reduced variance, yielding the highest testing accuracy on the unseen test data.
 
 ## CREATING AN NLP MODEL
-## SPAM  DETECTION MODEL
+SPAM  DETECTION MODEL
 in this model the dataset consists of all the emails which are sent to the user on a daily basis this model uses multinomial bayes classifier theorem to predict
 whether the message sent is legitimate or not.
 ## WORKNG
