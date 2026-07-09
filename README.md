@@ -18,3 +18,15 @@ Evaluated three core classification architectures to compare performance:
 ###  Final Results
 * **Best Model:** **Random Forest Classifier** outperformed both Logistic Regression and the standalone Decision Tree.
 * **Conclusion:** The ensemble nature of the Random Forest successfully reduced variance, yielding the highest testing accuracy on the unseen test data.
+
+## CREATING AN NLP MODEL
+## SPAM  DETECTION MODEL
+in this model the dataset consists of all the emails which are sent to the user on a daily basis this model uses multinomial bayes classifier theorem to predict
+whether the message sent is legitimate or not.
+## WORKNG
+the model analyses the data by splitting the data based on sentiment SPAM=0,HAM=1,
+the data is preprocessed and splitted into tokens.
+later the tokens and combined and are vectorised using tfidf vectorizer.
+finally the model is trained and tested over sample data givenm by user to predict the output.
+## FINAL
+this model helps in understanding how the data is splitted and vectorized to give accurate predicitions.
